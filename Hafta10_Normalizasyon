@@ -1,0 +1,20 @@
+create database veritabani
+go
+use veritabani
+go
+create table iller(
+kod int primary key,
+il_adi varchar(20))
+
+insert into iller(kod,il_adi) values (34,'Istanbul');
+insert into iller (kod,il_adi) values (35,'Izmir');
+insert into iller (kod,il_adi) values (34,'Istanbul');
+                                                                           Metehan Külekçi B2380.010115
+ create table ilceler(
+ ilce_id int primary key,
+ kod varchar(20),
+ ilce_adi varchar(20))
+
+ insert into ilceler (ilce_id,kod,ilce_Adi) values (1,34,'Küçükçekmece');
+ insert into ilceler (ilce_id,kod,ilce_Adi) values (2,35,'Bornova');
+ insert into ilceler (ilce_id,kod,ilce_Adi) values (3,34,'Beylikdüzü');
